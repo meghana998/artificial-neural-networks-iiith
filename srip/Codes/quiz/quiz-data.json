@@ -1,0 +1,202 @@
+{
+    "artciles": [
+        {
+            "quiztitle":"Quiz for Artificial Neural Networks-Perceptron Learning",
+            "containers":"5"
+        },
+        {
+            "q": " Correlation learning law is special case of?",
+            "option": [
+                "Hebb learning law",
+                "Perceptron learning law",
+                "Delta learning law"
+            ],
+            "answer": "Hebb learning law",
+            "description": "Since in hebb is replaced by bi(target output) in correlation."
+        },
+        {
+            "q": "Correlation learning law is what type of learning?",
+            "option": [
+                "supervised",
+                "unsupervised",
+                "either supervised or unsupervised"
+            ],
+            "answer": "supervised",
+            "description": "Supervised, since depends on target output."
+        },
+        {
+            "q": "Correlation learning law can be represented by equation?",
+            "option": [
+                "∆wij= µ(si) aj",
+                "∆wij= µ(bi – si) aj",
+                "∆wij= µ bi aj"
+            ],
+            "answer": "∆wij= µ bi aj",
+            "description": "Correlation learning law depends on target output(bi)."
+        },
+        {
+            "q": " The other name for instar learning law?",
+            "option": [
+                " looser take it all",
+                "winner take it all",
+                "Alooser give it all"
+            ],
+            "answer": "winner take it all",
+            "description": "The unit which gives maximum output, weight is adjusted for that unit."
+        },
+        {
+            "q": "The instar learning law can be represented by equation?",
+            "option": [
+                " ∆wij= µ(si) aj",
+                "∆wij= µ(bi – si) aj Á(xi),where Á(xi) is derivative of xi",
+                "∆wk= µ (a-wk), unit k with maximum output is identified"
+            ],
+            "answer": "∆wk= µ (a-wk), unit k with maximum output is identified",
+            "description": "Follows from basic definition of instar learning law."
+        },
+        {
+            "q": " Is instar a case of supervised learning?",
+            "option": [
+                "no",
+                "yes"
+            ],
+            "answer": "no",
+            "description": "Since weight adjustment don’t depend on target output, it is unsupervised learning."
+        },
+        {
+            "q": "The instar learning law can be represented by equation?",
+            "option": [
+                "∆wjk= µ(bj – wjk), where the kth unit is the only active in the input layer",
+                "∆wij= µ(bi – si) aj",
+                " ∆wij= µ(bi – si) aj Á(xi),wher Á(xi) is derivative of xi"
+            ],
+            "answer": "∆wjk= µ(bj – wjk), where the kth unit is the only active in the input layer",
+            "description": "Follows from basic definition of outstar learning law."
+        },
+        {
+            "q": "Is outstar a case of supervised learning?",
+            "option": [
+                "yes",
+                "no"
+            ],
+            "answer": "yes",
+            "description": "Since weight adjustment depend on target output, it is supervised learning."
+        },
+        {
+            "q": "Which of the following learning laws belongs to same category of learning?",
+            "option": [
+                "hebbian, perceptron",
+                "perceptron, delta",
+                "hebbian, widrow-hoff"
+            ],
+            "answer": "perceptron, delta",
+            "description": "They both belongs to supervised type learning."
+        },
+        {
+            "q": " In hebbian learning intial weights are set?",
+            "option": [
+                " random",
+                "near to zero",
+                "near to target value"
+            ],
+            "answer": "near to zero",
+            "description": "Hebb law lead to sum of correlations between input & output, inorder to achieve this, the starting initial weight values must be small."
+        },
+        {
+            "q": "Why do we need biological neural networks?",
+            "option": [
+                "to solve tasks like machine vision & natural language processing",
+                "to make smart human interactive & user friendly system",
+                "all of the mentioned"
+            ],
+            "answer": "all of the mentioned",
+            "description": "These are the basic aims that a neural network achieve."
+        },
+        {
+            "q": "What is the trend in software nowadays?",
+            "option": [
+                "to bring computer more & more closer to user",
+                "to solve complex problems",
+                "to be task specificr"
+            ],
+            "answer": "to bring computer more & more closer to user",
+            "description": "Software should be more interactive to the user, so that it can understand its problem in a better fashion"
+        },
+        {
+            "q": ". What’s the main point of difference between human & machine intelligence?",
+            "option": [
+                "human perceive everything as a pattern while machine perceive it merely as data",
+                "human have emotions",
+                "human have more IQ & intellect"
+            ],
+            "answer": "human perceive everything as a pattern while machine perceive it merely as data",
+            "description": "Humans have emotions & thus form different patterns on that basis, while a machine(say computer) is dumb & everything is just a data for him."
+        },
+        {
+            "q": "What is auto-association task in neural networks?",
+            "option": [
+                "find relation between 2 consecutive inputs",
+                "related to storage & recall task",
+                "predicting the future inputs"
+            ],
+            "answer": "related to storage & recall task",
+            "description": "This is the basic definition of auto-association in neural networks.."
+        },
+        {
+            "q": "Does pattern classification belongs to category of non-supervised learning?",
+            "option": [
+                "yes",
+                "no"
+            ],
+            "answer": "no",
+            "description": "Pattern classification belongs to category of supervised learning."
+        },
+        {
+            "q": " In pattern mapping problem in neural nets, is there any kind of generalization involved between input & output?",
+            "option": [
+                "yes",
+                "no"
+            ],
+            "answer": "no",
+            "description": "The desired output is mapped closest to the ideal output & hence there is generalisation involved."
+        },
+        {
+            "q": "What is unsupervised learning?",
+            "option": [
+                "features of group explicitly stated",
+                "number of groups may be known",
+                "neither feature & nor number of groups is known"
+            ],
+            "answer": "neither feature & nor number of groups is known",
+            "description": "Basic definition of unsupervised learning."
+        },
+        {
+            "q": "Does pattern classification & grouping involve same kind of learning?",
+            "option": [
+                "yes",
+                "no"
+            ],
+            "answer": "no",
+            "description": "Pattern classification involves supervised learning while grouping is an unsupervised one."
+        },
+        {
+            "q": "Does for feature mapping there’s need of supervised learning?",
+            "option": [
+                "yes",
+                "no"
+            ],
+            "answer": "no",
+            "description": " Feature mapping can be unsupervised, so it’s not a sufficient condition."
+        },
+        {
+            "q": "Example of a unsupervised feature map?",
+            "option": [
+                " text recognition",
+                "voice recognition",
+                "image recognition"
+            ],
+            "answer": "voice recognition",
+            "description": " Since same vowel may occur in different context & its features vary over overlapping regions of different vowels."
+        }
+    ]
+}
