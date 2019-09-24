@@ -1,0 +1,36 @@
+.dot1 {
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot4 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid black;
+}
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}

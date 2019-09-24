@@ -1,34 +1,72 @@
 <html>
 <head>
 	<title>Percepton Learning</title>
-	<script type="text/javascript" src="script.js"></script>
+	<script src="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/Chart.bundle.js"></script>
+    <script src="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/Chart.bundle.min.js"></script>
+    <script src="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/Chart.js"></script>
+    <script src="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/Chart.min.js"></script>
+    <script src="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/jquery.min.js"></script>
+    <script src="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/Chart.min.css">
+    <link rel="stylesheet" href="C:/Users/Meghana/Documents/srip/artificial-neural-networks-iiith/SRIP/Libraries/Chart.css">
+
+
     <link href="cssfile.css" rel="stylesheet" type="text/css" />
-	<script></script>
-    <style type="text/css"></style>
 </head>
 <body>
-	<h2>Perceptron Learning</h2>
-	<h3>Illustration of perceptron learning</h3>
-	Problem type:<select id="type">
-  <option value="Linearly separable">Linearly separable</option>
-  <option value="Linearly insparable">Linearly inseparable</option>
-</select></br>
-No.of samples per class:<input type="text" id="nosample" name="nosample" value="" ></input>
-No. of iterations:<input type="text" id="noiterations" name="noiterations" value="" ></input></br>
-
-Sample Step Size: <input type="text" id="samplesize" name="samplesize" value=" "></input>
-Iteration Step Size:<input type="text" id="iterationsize" name="iterationsize" value=" "></input></br>
-<input type="submit" id="init" name="init"  value="Init perceptron"></input>
-<input type="submit" id="next1" name="next1"  value="Next Sample"></input>
-<input type="submit" id="next2" name="next2"  value="Next Iteration"></input></br>
-<p>
+	<h1><center>Perceptron Learning</center></h1>
+    <div>
+    <table style="width:100%">
+  <tr>
+    <th> Problem type:	</th>
+    <th><select id="type">
+    	  <option selected="selected">select problem type</option>
+		  <option value="Linearly separable">Linearly separable</option>
+ 		  <option value="Linearly insparable">Linearly inseparable</option>
+		</select>
+	</th>
+	<th><input type="submit" id="init" name="init"  value="Init perceptron"></input></th>
+  </tr>
+  <tr>
+    <td>No.of samples per class:</td>
+    <td><input type="text" id="nosample" name="nosample" value="" ></input></td>
+    <td>No. of iterations:</td>
+    <td><input type="text" id="noiterations" name="noiterations" value="" ></input></td>
+  </tr>
+  <tr>
+    <td>Sample Step Size: </td>
+    <td><input type="text" id="samplesize" name="samplesize" value=" "></input></td>
+    <td>Iteration Step Size:</td>
+    <td><input type="text" id="iterationsize" name="iterationsize" value=" "></input></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="submit" id="next1" name="next1"  value="Next Sample"></input></td>
+    <td colspan="2"><input type="submit" id="next2" name="next2"  value="Next Iteration"></input></td>
+  </tr>
+</table>
+    </div>
+    <div><!--here charts will go-->
+    	<div id="chart" style="width: 400px; float:left; height:400px;  margin:10px; border-color: black;"> 
+    	   <canvas id="linechart"  width="350" height="350"></canvas>  
+        </div>
+		
+    </div>
+<div>
+	<p>
 	<pre>
 		1.Samples of class1 and class2 are shown in blue and red ,respectively.
 		2.The line described by weights of the perceptron is shown in black.
-		3.The sample point presented to the perceptron is shown by a black star symbol.
+		3.The  presented to the perceptron is shown by a black star symbol.
 		4.The lines described by weights, before and after a sample is presented to the perceptron ,are shown in the two subplots.
 	</pre>
 </p>
-
+ <div style="text-align:center">
+    <span class="dot1"></span>Class1</br>
+    <span class="dot2"></span>Class2</br>
+    <span class="dot3"></span>line described by weights of the perceptron</br>
+    <span class="dot4"></span>sample point</br>
+  </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
